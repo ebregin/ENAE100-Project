@@ -1,0 +1,6 @@
+Find values for
+T_avg
+thrust time
+cross section area of rocket
+density as a function of altitude
+mass as a function of time
