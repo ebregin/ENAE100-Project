@@ -1,0 +1,3 @@
+Coefficient of Drag of a Parachute: 1.75
+
+Area of our Parachute: 1017.876 in^2
