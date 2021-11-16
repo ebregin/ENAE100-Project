@@ -14,11 +14,10 @@ thrust_time=1; %burn time
 A=10.36358/1550; %m^2
 Cd_rocket=.46;
 Cd_parachute = .8;
-rp=.914; %m
-Parachute_area= 4/pi*rp^2; %m^2
+Parachute_area= .656; %m^2
 x0=[0 0];
 tspan=[0 200];
-tme = 11; %s motor ejection delay
+tme = 10; %s motor ejection delay
 
 [tout,xout] = ode45(@xdotsimplerocket,tspan,x0,[],tme);
 
