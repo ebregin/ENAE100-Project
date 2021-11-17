@@ -64,7 +64,7 @@ end
 
 xdot(1,1) =  x(2);
 
-xdot(2,1) = (T-sign(x(2))*.5*rho(x(1))*x(2)^2*(Cd_rocket*A+Cd_p*Parachute_area)-9.8*m-2*m_dot*x(2))/m;
+xdot(2,1) = (T-sign(x(2))*.5*rho(x(1))*x(2)^2*(Cd_rocket*A+Cd_p*Parachute_area)-9.8*m-m_dot*x(2))/m;
 
 end
 
